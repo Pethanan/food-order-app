@@ -22,6 +22,25 @@
 .price {
   color: #8a2b06;
 }
+
+.meals li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.meals li form button {
+  background-color: #8a2b06;
+  padding: 0.5rem 2rem;
+  border-radius: 19px;
+  color: wheat;
+  font-weight: 800;
+}
+
+.meals li form input {
+  width: 2rem;
+  margin: 1rem;
+  border-radius: 3px;
+}
 @keyframes meals-appear {
   from {
     opacity: 0;

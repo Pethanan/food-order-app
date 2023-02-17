@@ -30,14 +30,23 @@ const DUMMY_MEALS = [
 
 const AvailableMeals = () => {
   const MealsList = DUMMY_MEALS.map((m) => (
-    <li>
-      <b>{m.name}</b>
-      <p>
-        <i>{m.description}</i>
-      </p>
-      <b className={classes.price}>INR{m.price}</b>
+    <>
+      <li>
+        <div>
+          <b>{m.name}</b>
+          <p>
+            <i>{m.description}</i>
+          </p>
+          <p className={classes.price}>INR{m.price}</p>
+        </div>
+        <form>
+          <label>Amount</label>
+          <input type="number"></input>
+          <button type="submit">Add</button>
+        </form>
+      </li>
       <hr />
-    </li>
+    </>
   ));
 
   return (
