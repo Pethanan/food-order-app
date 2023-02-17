@@ -5,8 +5,8 @@ import MealsSummary from "./MealsSmmary";
 const Meals = () => {
   return (
     <>
-      <AvailableMeals></AvailableMeals>
       <MealsSummary></MealsSummary>
+      <AvailableMeals></AvailableMeals>
     </>
   );
 };
