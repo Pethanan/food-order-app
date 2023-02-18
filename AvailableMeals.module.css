@@ -1,46 +1,16 @@
 .meals {
-  max-width: 90rem;
-  width: 80%;
-  margin: auto;
-  margin-top: 3rem;
-
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
   animation: meals-appear 1s ease-out forwards;
-  text-align: center;
 }
 
 .meals ul {
   list-style: none;
   margin: 0;
-  margin-left: 1rem;
   padding: 0;
-  padding: 1rem;
-  text-align: left;
-  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
-  border-radius: 14px;
 }
 
-.price {
-  color: #8a2b06;
-}
-
-.meals li {
-  display: flex;
-  justify-content: space-between;
-}
-
-.meals li form button {
-  background-color: #8a2b06;
-  padding: 0.5rem 2rem;
-  border-radius: 19px;
-  color: wheat;
-  font-weight: 800;
-}
-
-.meals li form input {
-  width: 2rem;
-  margin: 1rem;
-  border-radius: 3px;
-}
 @keyframes meals-appear {
   from {
     opacity: 0;
