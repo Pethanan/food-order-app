@@ -52,7 +52,7 @@ const cartReducer = (state, action) => {
       totalAmount: updatedTotalAmount,
     };
   }
-  return defaultCartState;
+  return state;
 };
 
 const ContextProvider = (props) => {
